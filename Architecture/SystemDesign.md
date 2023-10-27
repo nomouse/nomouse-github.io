@@ -23,24 +23,27 @@ https://zhuanlan.zhihu.com/p/44344256
 一个好的面向对象设计，自然是符合高内聚，低耦合原则的对象划分和协作方式。
 单一职责和开放封闭，更多的在强调类划分时的高内聚；而里氏替换，依赖倒置，接口隔离则更多的强调类与类之间协作接口（即API）定义的低耦合。
 
-单一职责原则SRP(Single Responsibility Principle)
+- 单一职责原则SRP(Single Responsibility Principle)
 单一职责原则规定一个类应该有且仅有一个引起它变化的原因，否则类应该被拆分。
 
-开放封闭原则OCP(Open－Close Principle)
+- 开放封闭原则OCP(Open－Close Principle)
 一个模块对于拓展是开放的，对于修改是封闭的。
 开闭原则是面向对象程序设计的终极目标，它使软件实体拥有一定的适应性和灵活性的同时具备稳定性和延续性。
 
-里式替换原则LSP(the Liskov Substitution Principle LSP)
+- 里式替换原则LSP(the Liskov Substitution Principle LSP)
 子类可以扩展父类的功能，但不能改变父类原有的功能。
 
-依赖倒置原则DIP(the Dependency Inversion Principle DIP)
+- 依赖倒置原则DIP(the Dependency Inversion Principle DIP)
 高层次的模块不应该依赖于低层次的模块，他们都应该依赖于抽象。抽象不应该依赖于具体实现，具体实现应该依赖于抽象。
 
-接口分离原则ISP(the Interface Segregation Principle ISP)
+- 接口分离原则ISP(the Interface Segregation Principle ISP)
 一个类对另一个类的依赖应该建立在最小的接口上
 
 关系：
-单一职责是所有设计原则的基础，开闭原则是设计的终极目标。里氏替换原则强调的是子类替换父类后程序运行时的正确性，它用来帮助实现开闭原则。而接口隔离原则用来帮助实现里氏替换原则，同时它也体现了单一职责。依赖倒置原则是过程式编程与OO编程的分水岭，同时它也被用来指导接口隔离原则。
+单一职责是所有设计原则的基础，开闭原则是设计的终极目标。
+里氏替换原则强调的是子类替换父类后程序运行时的正确性，它用来帮助实现开闭原则。
+而接口隔离原则用来帮助实现里氏替换原则，同时它也体现了单一职责。
+依赖倒置原则是过程式编程与OO编程的分水岭，同时它也被用来指导接口隔离原则。
 
 ## 基本原则
 
@@ -72,3 +75,16 @@ YAGNI是英文 “You aren't gonna need it” 的缩写，一般认为属于软�
 #设计模式
 
 #领域驱动设计
+
+## 战略设计
+
+## 战术设计
+
+## CQRS(命令/查询分离)
+
+## 事件驱动模式
+
+## DDD经典4层架构
+
+## 充血模型和贫血模型
+
